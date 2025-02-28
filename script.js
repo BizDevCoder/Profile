@@ -4,6 +4,7 @@ $('.owl-carousel').owlCarousel({
     dots: false,
     responsiveClass: true,
     autoplay:true,
+    
     responsive:{
         0:{
             items:1,
