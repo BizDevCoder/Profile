@@ -25,6 +25,11 @@ main{
     text-decoration: none;
     padding: 10px;
 }
+
+.navbar a:hover{
+    color: orangered;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -171,4 +176,60 @@ padding: 0px 0px;
     font-size: 20px;
     align-items: center;
     color: rgb(173, 181, 189);
+}
+
+
+
+
+
+/* RESPONCIVENES */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .nav-links{
+        display: flex;
+        align-items: center;
+        font-size: 9px;
+    }
+    .cta p{
+        font-size: 32px;
+    }
+
+    #Carousel .item video{
+        object-fit: fill;
+        border-radius: 10px;
+        width: 320px;
+        height: 260px;
+    }
+
+    .blog-section h1{
+        font-size: 32px;
+        padding-top: 20px;
+    }
+
+    .blog-text .text-con p{
+        font-size: 9px;
+    }
+
+    .blog-text .text-con a{
+        font-size: 18px;
+    }
+
+    .page-section h1{
+    font-size: 32px;
+    }
+
+    .page-img .web-icon img{
+        width: 340px;
+        height: 580px;
+    }
+
+    .social a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social-text{
+        font-size: 12px;
+    }
+
 }
