@@ -136,6 +136,7 @@ padding: 0px 0px;
 .page-img{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     column-gap: 30px;
 }
 
