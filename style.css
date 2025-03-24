@@ -72,8 +72,8 @@ main{
 #Carousel .item video{
     object-fit: fill;
     border-radius: 10px;
-    width: 420px;
-    height: 320px;
+    width: 540px;
+    height: 380px;
 }
 
 /* Bolg-section */
@@ -136,16 +136,16 @@ padding: 0px 0px;
 .page-img{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 28px;
+    justify-content: space-around;
     padding: 0;
     width: 100%;
 }
 
 .page-img .web-icon img{
     display: flex;
-    width: 410px;
-    height: 720px;
-    margin: 15px 0px;
+    width: 560px;
+    height: 880px;
+    margin: 20px 0px;
     border-radius: 10px;
 }
 

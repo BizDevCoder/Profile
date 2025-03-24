@@ -22,7 +22,7 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-document.addEventListener("DOMContentLoaded", function () {
-    var video = document.getElementById("myVideo");
-    video.controls = false;
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//     var video = document.getElementById("myVideo");
+//     video.controls = false;
+// });
