@@ -186,7 +186,12 @@ padding: 0px 0px;
 
 /* RESPONCIVENES */
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px){
+
+    main{
+        padding: 0px 40px;
+    }
+
     .nav-links{
         display: flex;
         align-items: center;
@@ -197,10 +202,12 @@ padding: 0px 0px;
     }
 
     #Carousel .item video{
+        display: flex;
         object-fit: fill;
         border-radius: 10px;
-        width: 310px;
-        height: 250px;
+        width: 320px;
+        column-gap: 10px;
+        height: 240px;
     }
 
     .blog-section h1{
