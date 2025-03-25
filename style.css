@@ -210,8 +210,8 @@ padding: 0px 0px;
         object-fit: fill;
         column-gap: 20px;
         border-radius: 10px;
-        width: 390px;
-        height: 272px;
+        width: 380px;
+        height: 270px;
     }
 
     .blog-section h1{
@@ -232,7 +232,7 @@ padding: 0px 0px;
     }
 
     .page-img .web-icon img{
-        width: 390px;
+        width: 380px;
         height: 620px;
     }
 
