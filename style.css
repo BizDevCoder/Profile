@@ -186,10 +186,10 @@ padding: 0px 0px;
 
 /* RESPONCIVENES */
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 600px){
+@media only screen and (min-device-width : 360px) and (max-device-width : 480px){
 
     main{
-        padding: 0px 40px;
+        padding: 0px 20px;
     }
 
     .nav-links{
@@ -201,12 +201,16 @@ padding: 0px 0px;
         font-size: 32px;
     }
 
+    .nav-links li {
+        margin: 0 5px;
+    }
+
     #Carousel .item video{
         display: flex;
         object-fit: fill;
+        column-gap: 20px;
         border-radius: 10px;
         width: 320px;
-        column-gap: 10px;
         height: 240px;
     }
 
@@ -228,8 +232,8 @@ padding: 0px 0px;
     }
 
     .page-img .web-icon img{
-        width: 340px;
-        height: 580px;
+        width: 320px;
+        height: 520px;
     }
 
     .social a{
