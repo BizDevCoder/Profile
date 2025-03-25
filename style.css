@@ -73,8 +73,8 @@ main{
 #Carousel .item video{
     object-fit: fill;
     border-radius: 10px;
-    width: 520px;
-    height: 380px;
+    width: 420px;
+    height: 320px;
 }
 
 /* Bolg-section */
