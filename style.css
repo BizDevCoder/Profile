@@ -73,7 +73,7 @@ main{
 #Carousel .item video{
     object-fit: fill;
     border-radius: 10px;
-    width: 450px;
+    width: 420px;
     height: 340px;
 }
 
