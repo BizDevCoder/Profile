@@ -49,11 +49,13 @@ main{
 
 /* CTA section */
 .cta{
+    height: 100%;
     padding: 20px 0px;
 }
 
 .cta p{
-    font-size: 50px;
+    margin: 20px;
+    font-size: 58px;
     font-weight: 500;
 }
 
@@ -79,11 +81,11 @@ main{
 
 /* Bolg-section */
 
-.blog-section{
+#blog{
 padding: 0px 0px;
 }
 
-.blog-section h1{
+#blog h1{
     font-size: 52px;
     font-weight: 500;
 }
@@ -128,7 +130,7 @@ padding: 0px 0px;
 
 /* page-section */
 
-.page-section h1{
+#page-section h1{
     padding: 20px 0px;
     font-size: 52px;
     font-weight: 400;
@@ -151,10 +153,22 @@ padding: 0px 0px;
 
 /* Footer */
 
-.social{
+#social{
     display: flex;
     flex-direction: column;
     padding: 40px 0px;
+    transition: 0.5s;
+}
+
+#social a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#social a:hover{
+    color: orangered;
 }
 
 .social-link{
@@ -163,16 +177,6 @@ padding: 0px 0px;
     padding: 20px 0px;
 }
 
-.social a{
-    text-decoration: none;
-    color: black;
-    font-size: 32px;
-    font-weight: 500;
-}
-
-.social a:hover{
-    color: orangered;
-}
 
 .social-text{
     font-size: 20px;
@@ -180,15 +184,12 @@ padding: 0px 0px;
     color: rgb(173, 181, 189);
 }
 
-
-
-
-
 /* RESPONCIVENES */
 
 @media only screen and (min-device-width : 360px) and (max-device-width : 480px){
 
     main{
+        background-color: red;
         padding: 0px 20px;
     }
 
