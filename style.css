@@ -33,6 +33,7 @@ main{
 .nav-links {
     display: flex;
     list-style: none;
+    align-items: center;
     font-size: 16px;
     font-weight: 500;
 }
@@ -75,8 +76,8 @@ main{
 #Carousel .item video{
     object-fit: fill;
     border-radius: 10px;
-    width: 420px;
-    height: 320px;
+    width: 380px;
+    height: 280px;
 }
 
 /* Bolg-section */
@@ -246,3 +247,4 @@ padding: 0px 0px;
     }
 
 }
+
