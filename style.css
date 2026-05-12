@@ -146,9 +146,9 @@ padding: 0px 0px;
 
 .page-img .web-icon img{
     display: flex;
-    width: 440px;
+    width: 380px;
     margin: 10px 0px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 /* Footer */
